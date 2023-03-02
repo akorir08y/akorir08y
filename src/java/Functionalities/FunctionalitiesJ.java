@@ -25,11 +25,11 @@ import javax.swing.*;*/
  */
 public class FunctionalitiesJ {
     public static final String CSdriver = new String("org.postgresql.Driver");
-    public static String dbURLCS = "jdbc:postgresql://localhost:5432/Davido";
-    public static String dbURLCS1 = "jdbc:postgresql://localhost:5432/Mbaush";
+    public static String dbURLCS = "jdbc:postgresql://localhost:5432/DatabaseName";
+    public static String dbURLCS1 = "jdbc:postgresql://localhost:5432/DatabaseName";
     public static Connection connCS;
-    public static String mysqlUname = "postgres";
-    public static String mysqlPwd = "jesot@211";
+    public static String mysqlUname = "********";
+    public static String mysqlPwd = "*********";
     
     
      public static void initializeConnection() {
